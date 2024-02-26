@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensure proper mobile scaling -->
+    <title>Signup</title>
+    <style>
+        /* Container holding the iframe - This ensures responsiveness */
+        .responsive-iframe {
+            overflow: hidden;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            position: relative;
+        }
+
+        /* The iframe */
+        .responsive-iframe iframe {
+            border: 0;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="responsive-iframe">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSexJVYSg1HlBsHtA1hCnAISSSspGZmNrFfGspwn7jYUc34vbw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+</body>
+</html>
