@@ -2,24 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensure proper mobile scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Essential for responsive design -->
     <title>Signup</title>
     <style>
-        /* Container holding the iframe - This ensures responsiveness */
+        /* Ensure the iframe container is responsive across all devices */
         .responsive-iframe {
-            overflow: hidden;
-            padding-top: 56.25%; /* 16:9 Aspect Ratio */
             position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 150%; /* Adjust this value based on the aspect ratio you desire */
         }
 
-        /* The iframe */
         .responsive-iframe iframe {
-            border: 0;
-            height: 100%;
-            left: 0;
             position: absolute;
             top: 0;
+            left: 0;
             width: 100%;
+            height: 100%;
         }
     </style>
 </head>
